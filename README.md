@@ -41,6 +41,7 @@ Full diagrams and explanation: [`/diagrams`](./diagrams) and [`/docs`](./docs)
 
 ## 📁 Repository Structure
 
+```
 frontend/              → React dashboard (MSP console + tenant view)
 backend/
 ├── AlertingService/     → Event scoring & alert generation
@@ -49,6 +50,7 @@ backend/
 └── ReportingService/    → PDF/CSV report generation
 docs/                   → Design documentation
 diagrams/               → Architecture diagrams
+```
 
 ## 📄 Documentation
 
