@@ -40,3 +40,25 @@ Full diagrams and explanation: [`/diagrams`](./diagrams) and [`/docs`](./docs)
 | Hosting | Azure (free-tier services) |
 
 ## 📁 Repository Structure
+
+frontend/              → React dashboard (MSP console + tenant view)
+backend/
+├── AlertingService/     → Event scoring & alert generation
+├── ComplianceService/   → Essential Eight / ISO 27001 scoring
+├── IncidentService/     → Incident lifecycle management
+└── ReportingService/    → PDF/CSV report generation
+docs/                   → Design documentation
+diagrams/               → Architecture diagrams
+
+## 📄 Documentation
+
+Full systems design documentation: [`/docs`](./docs)
+
+## 👤 Author
+
+Maliha Mohammadi
+ICT503 Applied IT Project B — Individual Submission
+
+## 📚 Context
+
+This project continues from **ICT502 Applied IT Project A**, where research into NSW IT Support identified the need for a unified security/compliance/cloud governance platform for SME clients.
